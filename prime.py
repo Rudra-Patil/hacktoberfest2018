@@ -7,6 +7,8 @@ upper = 1000
 # uncomment the following lines to take input from the user
 #lower = int(input("Enter lower range: "))
 #upper = int(input("Enter upper range: "))
+if lower < 0 and upper < 0:
+   print("Invalid Input")
 
 print("Prime numbers between",lower,"and",upper,"are:")
 
